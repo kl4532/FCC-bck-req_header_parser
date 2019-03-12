@@ -20,7 +20,7 @@ app.get("/", function (req, res) {
 
 
 // Path and solution 
-app.get("/api/whoami", function (req, res) {
+app.get("/api/test", function (req, res) {
   res.json({ip: req.ip, language: req.headers["accept-language"], software: req.headers['user-agent']});
 });
 
